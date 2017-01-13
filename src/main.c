@@ -41,8 +41,6 @@ int main(void)
 		//LCDT_init();
 		fill_rect(0,0,200,250,q);
 		q++;
-
-
 	}
 
 }
