@@ -7,9 +7,6 @@
 #include <rozne.h>
 #include <lcd.h>
 
-
-#define GPIOB_8_bb *((volatile unsigned long*) BITBAND_PERI(&GPIOB->ODR,8))
-
 #define LedOn 	GPIOA->BSRR = GPIO_BSRR_BS_5; //set bit atomic
 #define LedOff 	GPIOA->BSRR = GPIO_BSRR_BR_5; //reset bit atomic
 
